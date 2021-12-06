@@ -1,7 +1,7 @@
-
 public class FibonacciSequenceService {
 
     public void printFibonacciSequence1(int n) {
+        System.out.printf("Fibonacci 1 for n=%s: ", n);
         int num1 = 0, num2 = 1;
         int counter = 0;
         while (counter < n) {
@@ -15,6 +15,7 @@ public class FibonacciSequenceService {
     }
 
     public void printFibonacciSequence2(int n) {
+        System.out.printf("Fibonacci 2 for n=%s: ", n);
         for (int i = 1; i <= n; i++) {
             System.out.print(fib2(i) + " ");
         }
@@ -36,6 +37,7 @@ public class FibonacciSequenceService {
     }
 
     public void printFibonacciSequence3(int n) {
+        System.out.printf("Fibonacci 3 for n=%s: ", n);
         for (int i = 0; i < n; i++)
             System.out.print(fib3(i) + " ");
         System.out.println("\n");

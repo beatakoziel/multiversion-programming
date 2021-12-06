@@ -1,6 +1,7 @@
 public class FactorialService {
 
     public void getFactorial1(int n) {
+        System.out.printf("Factorial 1 for n=%s: ", n);
         long fact = 1;
         for (int i = 2; i <= n; i++) {
             fact = fact * i;
@@ -9,6 +10,7 @@ public class FactorialService {
     }
 
     public void getFactorial2(int n) {
+        System.out.printf("Factorial 2 for n=%s: ", n);
         int result = 1;
         if (n > 1) {
             for (int i = 1; i <= n; i++) {
@@ -21,6 +23,7 @@ public class FactorialService {
     }
 
     public void getFactorial3(int n) {
+        System.out.printf("Factorial 3 for n=%s: ", n);
         int res = 1, i;
         for (i = 2; i <= n; i++)
             res *= i;
